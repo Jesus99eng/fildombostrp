@@ -1,0 +1,347 @@
+.sec1{
+    padding: 20px;
+}
+
+.sec2{
+    padding: 20px;
+}
+
+.height{
+    
+    height:100vh;
+}
+
+.card{
+    
+    width:500px;
+    height:370px;
+}
+
+.image{
+    position:absolute;
+    right:12px;
+    top:10px;
+}
+
+.main-heading{
+    
+    font-size:40px;
+    color:red !important;
+}
+
+.ratings i{
+    
+    color:orange;
+    
+}
+
+.user-ratings h6{
+    margin-top:2px;
+}
+
+.colors{
+    display:flex;
+    margin-top:2px;
+}
+
+.colors span{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    cursor:pointer;
+    display:flex;
+    margin-right:6px;
+}
+
+.colors span:nth-child(1) {
+    
+    background-color:red;
+    
+}
+
+.colors span:nth-child(2) {
+    
+    background-color:blue;
+    
+}
+
+.colors span:nth-child(3) {
+    
+    background-color:yellow;
+    
+}
+
+.colors span:nth-child(4) {
+    
+    background-color:purple;
+    
+}
+
+.btnfiltro{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btnfiltroelectr-je{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.btnfiltroelectr-je:hover{
+    background-color:#3B4BAE;
+    color: white;
+    transition: 0.4s;
+    opacity: 4;
+    border: 2px solid coral; 
+}
+
+
+
+.btnfiltro:hover{
+    background-color:#3B4BAE;
+    color: white;
+    transition: 0.4s;
+    opacity: 4;
+    border: 2px solid coral; 
+}
+
+input.estil{
+width: 200px;
+height: 40px;
+border-radius: 16px;
+padding: 10px;
+
+}
+
+/* From Uiverse.io by cbolson */ 
+.my-form {
+    --_clr-primary: #f5f2f2;
+    --_clr-hover: #f33195;
+    --_clr-checked: #127acf;
+  }
+  .my-form > div {
+    --_clr-current: var(--_clr-primary);
+  
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .my-form > div + div {
+    margin-block-start: 0.5rem;
+  }
+  .my-form label {
+    cursor: pointer;
+    color: var(--_clr-current);
+    transition: color 150ms ease-in-out;
+  }
+  
+  /* styled checkbox */
+  .my-form input[type="checkbox"] {
+    appearance: none;
+    outline: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    aspect-ratio: 1;
+    padding: 0.25rem;
+    background: transparent;
+    border: 1px solid var(--_clr-current);
+    border-radius: 2px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+  }
+  .my-form input[type="checkbox"]::after {
+    content: "\2714";
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+    color: var(--_clr-checked);
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  .my-form label:hover,
+  .my-form input[type="checkbox"]:focus-visible,
+  .my-form input[type="checkbox"]:focus-visible + label,
+  .my-form input[type="checkbox"]:hover,
+  .my-form input[type="checkbox"]:hover + label {
+    --_clr-current: var(--_clr-hover);
+  }
+  .my-form input[type="checkbox"]:focus-visible::after,
+  .my-form input[type="checkbox"]:hover::after {
+    opacity: 0.5;
+    color: var(--_clr-hover);
+  }
+  
+  .my-form input[type="checkbox"]:checked + label:not(:hover),
+  .my-form input[type="checkbox"]:checked:not(:hover) {
+    --_clr-current: var(--_clr-checked);
+  }
+  .my-form input[type="checkbox"]:checked::after {
+    opacity: 1;
+  }
+  
+  .backchk{
+    border: 2px solid rgb(219, 215, 215);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .bodycontainer {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+          circle farthest-side at 0% 50%,
+          #282828 23.5%,
+          rgba(255, 170, 0, 0) 0
+        )
+        21px 30px,
+      radial-gradient(
+          circle farthest-side at 0% 50%,
+          #2c3539 24%,
+          rgba(240, 166, 17, 0) 0
+        )
+        19px 30px,
+      linear-gradient(
+          #282828 14%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 85%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          150deg,
+          #282828 24%,
+          #2c3539 0,
+          #2c3539 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #2c3539 0,
+          #2c3539 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(
+          30deg,
+          #282828 24%,
+          #2c3539 0,
+          #2c3539 26%,
+          rgba(240, 166, 17, 0) 0,
+          rgba(240, 166, 17, 0) 74%,
+          #2c3539 0,
+          #2c3539 76%,
+          #282828 0
+        )
+        0 0,
+      linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0
+        #282828;
+    background-size: 40px 60px;
+  }
+
+  /* From Uiverse.io by cssbuttons-io */ 
+.btncarrito{
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  touch-action: manipulation;
+   width: 450px;
+  height: 50px;
+ }
+ 
+ .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform
+     600ms
+     cubic-bezier(.3, .7, .4, 1);
+ }
+ 
+ .edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+     to left,
+     hsl(340deg 100% 16%) 0%,
+     hsl(340deg 100% 32%) 8%,
+     hsl(340deg 100% 32%) 92%,
+     hsl(340deg 100% 16%) 100%
+   );
+ }
+ 
+ .front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform
+     600ms
+     cubic-bezier(.3, .7, .4, 1);
+ }
+ 
+ .btncarrito:hover {
+  filter: brightness(110%);
+ }
+ 
+ .btncarrito:hover .front {
+  transform: translateY(-6px);
+  transition: transform
+     250ms
+     cubic-bezier(.3, .7, .4, 1.5);
+ }
+ 
+ .btncarrito:active .front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+ }
+ 
+ .btncarrito:hover .shadow {
+  transform: translateY(4px);
+  transition: transform
+     250ms
+     cubic-bezier(.3, .7, .4, 1.5);
+ }
+ 
+ .btncarrito:active .shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+ }
+ 
+ .btncarrito:focus:not(:focus-visible) {
+  outline: none;
+ }
+ 
+ h2{
+  color: white;
+ }
